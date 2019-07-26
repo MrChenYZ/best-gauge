@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "支付密码键盘",
+  "usingComponents": {
+    "best-payment-password": "/components/best-payment-password/best-payment-password"
+  }
+}
