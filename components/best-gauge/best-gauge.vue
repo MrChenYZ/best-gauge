@@ -158,9 +158,10 @@ export default {
 					criticalPoint,
 					colors,
 					startAngle: options.startAngle,
-					width: options.subHeight,
+					width: gaugeOption.subHeight,
 					number: gaugeOption.number,
 				}
+				console.log(maxScaleData);
 				this.drawScale(ctx, maxScaleData);
 				
 				// 画小刻度
@@ -172,7 +173,7 @@ export default {
 					endX: childEndX,
 					splitAngle:childAngle,
 					startAngle: options.startAngle,
-					width: options.subHeight,
+					width: gaugeOption.subHeight,
 					number: gaugeOption.number * gaugeOption.subNumber,
 				}
 				this.drawScale(ctx, minScaleData);

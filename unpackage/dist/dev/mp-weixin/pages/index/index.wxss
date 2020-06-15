@@ -1,0 +1,37 @@
+
+.content {
+	width: 100%;
+
+
+
+
+	min-height: 100vh;
+
+	background-color: #fff;
+}
+.title{
+	font-size: 30rpx;
+	text-align: center;
+	padding: 100rpx 40rpx;
+}
+.flex{display: -webkit-box;display: -webkit-flex;display: flex;}
+.flex-1{position: relative;-webkit-box-flex:  1;-webkit-flex:  1;flex:  1;width: 50%;}
+.logo {
+	height: 400rpx;
+	width: 400rpx;
+	display: block;
+	margin: 0 auto;
+}
+.text {
+	text-align: center;
+	width: 240rpx;
+	line-height: 70rpx;
+	display: block;
+	margin: 50rpx auto;
+	border: 1px solid #369c96;
+	font-size: 28rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	color: #369c96;
+}
+

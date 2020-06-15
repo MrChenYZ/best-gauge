@@ -1,0 +1,1 @@
+<view class="gauge-box" style="{{'background-color:'+(bgColor)+';'}}"><canvas style="{{'width:'+(_width+'px')+';'+('height:'+(_width+'px')+';')}}" canvas-id="{{config.id}}"></canvas><block wx:if="{{_status}}"><view class="{{['gauge-btn',(_dStatus)?'gauge-btn-active':'']}}">{{_dStatus?'在线':'离线'}}</view></block></view>
